@@ -12,6 +12,7 @@ var newGame = function() {
 
 var MAKE_GUESS = 'MAKE_GUESS';
 var makeGuess = function(guess) {
+console.log("makeGuess");
     return {
         type: MAKE_GUESS,
         guess: guess
