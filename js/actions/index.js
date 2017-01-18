@@ -4,6 +4,7 @@
 
 var NEW_GAME = 'NEW_GAME';
 var newGame = function() {
+    console.log("new game");
     return {
         type: NEW_GAME
     };
@@ -19,6 +20,7 @@ var makeGuess = function(guess) {
 
 var TOGGLE_INFO_MODAL = 'TOGGLE_INFO_MODAL';
 var toggleInfoModal = function() {
+    console.log("Toggleinfo called");
     return {
         type: TOGGLE_INFO_MODAL,
     };
